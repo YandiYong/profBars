@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Grid container */
+        .grid-container {
+          display: grid; /*This makes the container to display as grid in html*/
+          grid-template-columns: auto auto auto; 
+          /*grid-template-rows: auto auto auto;*/ 
+          height: 100hv;/*epresents the full height of the viewport, regardless of the content on the page.*/
+        }
+      
+        /* Sidebar styling */
+        .navbar {
+          background-color: blueviolet;
+          color: white;
+          width: 100%;
+        }
+      
+        /* Main content area */
+        .main-content {
+          width: 100%;
+          justify-content: center;
+        }
+      
+        /* Navbar styling */
+        .sidebar {
+            background-color: black;
+          color: white;
+          float: left;
+
+        }
+      </style>
+
+</head>
+
+<body>
+    <header>
+         <!-- navbar -->
+      <div class="navbar" >
+        <h2>This is my navbar</h2>
+        <p>My bar content</p>
+      </div>
+
+    </header>
+    <!-- Grid container -->
+
+
+       <!-- Main content area -->
+    <div class="main-content">
+  
+         <!-- sidebar -->
+      <div class="sidebar" >
+        <h2>This is my sidebar</h2>
+        <p>My bar content</p>
+      </div>
+
+        <!-- Main content -->
+        <h2>Content</h2>
+        <p>My content content .</p>    
+    </div>
+     
+  
+
+  
+</body>
+</html>
