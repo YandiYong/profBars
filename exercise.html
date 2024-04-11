@@ -11,7 +11,7 @@
           display: grid; /*This makes the container to display as grid in html*/
           grid-template-columns: auto auto auto; 
           /*grid-template-rows: auto auto auto;*/ 
-          height: 100hv;/*epresents the full height of the viewport, regardless of the content on the page.*/
+          /*epresents the full height of the viewport, regardless of the content on the page.*/
         }
       
         /* Sidebar styling */
@@ -24,7 +24,9 @@
         /* Main content area */
         .main-content {
           width: 100%;
+          padding-right: 20;
           justify-content: center;
+          background-color: yellow;
         }
       
         /* Navbar styling */
@@ -32,7 +34,8 @@
             background-color: black;
           color: white;
           float: left;
-
+          height: auto;
+        
         }
       </style>
 
@@ -48,24 +51,22 @@
 
     </header>
     <!-- Grid container -->
-
+    <div class="sidebar" >
+      <h2>This is my sidebar</h2>
+      <p>My bar content</p>
+    </div>
+       <div class="grid-container">
 
        <!-- Main content area -->
+       
+
     <div class="main-content">
-  
-         <!-- sidebar -->
-      <div class="sidebar" >
-        <h2>This is my sidebar</h2>
-        <p>My bar content</p>
-      </div>
 
         <!-- Main content -->
         <h2>Content</h2>
         <p>My content content .</p>    
-    </div>
-     
-  
-
-  
+      </div>
+    
+  </div>    
 </body>
 </html>
