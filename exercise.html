@@ -12,7 +12,7 @@
         }
        /*Grid container*/
         .grid-container {
-          overflow: auto;
+          /* overflow: auto; */
           height: 100vh; 
           width: 100%;
         } 
@@ -21,7 +21,6 @@
           float: left;
           background-color: black;
           color: white;
-          overflow: hidden;
           width: 15.6%;
           position: relative;
           height: 100%;
@@ -50,7 +49,24 @@
           position: relative;
           height: 100%;
         
-        }  
+        } 
+        .img{
+          
+          justify-content: center;
+          width: 50%;
+          height: 50%;
+          margin-left: 200px;
+          margin-top: 100px;
+
+        } 
+
+        .logo{
+          border-radius: 50%;
+          float: right;
+          margin-right: 80px;
+          height: 5%;
+          width: 5%;
+        }
       
       </style>
 
@@ -62,6 +78,7 @@
       <!-- navbar -->
      <header>
       <div class="navbar" >
+        <img class="logo" src="https://lh5.googleusercontent.com/proxy/ai0NtIRte8-_-xuGXMyqz6Zy1ePXa8AVwrpB2RKZJxEGgr-q2d-Bz8uQzPAh8YDoiYp8Tzcjzsw">
        <h2>This is my navbar</h2>
        <p>My bar content</p>
       </div>
@@ -73,8 +90,12 @@
       </div>
       <!-- Main content area -->
       <div class="main-content">
+        <h3>DASHBOARD</h3>
+       <img src="https://www.shutterstock.com/image-photo/close-eye-forex-chart-vision-260nw-1060251101.jpg" class="img">
+
        <h2>Content</h2>
-       <p>My content content .</p> 
+       <p>I am a Professional Forex Trader!! </p> 
+
       </div>
   </div>         
 </body>
