@@ -8,11 +8,11 @@
     <style>
         *{
           margin: 0;
-          overflow: hidden;
+      
         }
        /*Grid container*/
         .grid-container {
-          /* overflow: auto; */
+          overflow: scroll;
           height: 100vh; 
           width: 100%;
         } 
@@ -27,11 +27,11 @@
         
         }
         /* Main content area */
-        .main-content {
+        .Dashboard-content {
           
           background-color:blueviolet;
           justify-content: center;
-          position:relative;
+          position:relative; 
           /*margin-left: 149px;*/
           width: 84.4%;
          
@@ -44,9 +44,9 @@
         .navbar {
           background-color: blueviolet;
           color: white;
-          overflow: hidden;
           width: 100%;
-          position: relative;
+          top: 0;
+          position: fixed;
           height: 100%;
         
         } 
@@ -88,14 +88,15 @@
         <h2>This is my sidebar</h2>
         <p>My bar content</p>
       </div>
-      <!-- Main content area -->
-      <div class="main-content">
+      <!-- Dashboard area -->
+      <div class="Dashboard-content">
         <h3>DASHBOARD</h3>
        <img src="https://www.shutterstock.com/image-photo/close-eye-forex-chart-vision-260nw-1060251101.jpg" class="img">
-
-       <h2>Content</h2>
-       <p>I am a Professional Forex Trader!! </p> 
-
+        <div>
+          <h2>Content</h2>
+          <p>I am a Professional Forex Trader!! </p>    
+        </div>
+       
       </div>
   </div>         
 </body>
